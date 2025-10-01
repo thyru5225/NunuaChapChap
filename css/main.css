@@ -1,0 +1,24 @@
+h1{
+    color: #e11414;
+    font-size: 60px;
+    background-color: black;
+    text-align: center;
+    line-height: 100px;
+    text-shadow: 8px 8px 6px grey;
+}
+
+h1:hover{
+    background-color: #1455e1;
+}
+
+p{
+    font-weight: bold;
+    font-style: italic;
+}
+img{
+     width: 280px;
+     height: 300px;
+ }
+img:hover{
+    opacity: 0.8;
+}

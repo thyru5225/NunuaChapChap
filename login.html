@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login Page</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<h1 class="text-center text-danger">login</h1>
+<form action="" class="me-4">
+    <div class="row">
+
+        <div class="col me-2 mb-3" >
+        <label for="email" class="form-label me-2 ms-2">Email</label>
+            <input type="text" id=email class="form-control me-6 ms-2" required>
+        </div>
+    <div class="col">
+                <label for="password" class="form-label">Password</label>
+            <input type="text" id="password" class="form-control me-6 ms-2 mb-3" required>
+
+            </div>
+
+    </div>
+
+     <label for="address" class="form-label me-2 ms-2">Address</label>
+            <input type="text" id="address" class="form-control ms-2 me-6 mb-3 " placeholder="1234 Main St" required>
+     <label for="address 2" class="form-label container ">Address 2</label>
+            <input type="text" id="address 2" class="form-control  mb-3 me-6 ms-2" placeholder="Apartment, Studio or Floor" required>
+
+<div class="row">
+        <div class="col-6 me-2">
+        <label for="city" class="form-label me-2 ms-2">City</label>
+            <input type="text" id=city class="form-control me-6 ms-2" required>
+        </div>
+    <div class="col-3">
+           <div>
+               <label for="state" class="form-label">State</label>
+                   <select class="form-select" id="state" aria-label="default select example">
+                       <option selected>Choose...</option>
+                     <option value="1">Texas</option>
+                       <option value="2">Vermont</option>
+                       <option value="3">Utah</option>
+
+
+
+                   </select>
+
+
+
+
+
+           </div>
+
+            </div>
+    <div class="col-2">
+                <label for="zip" class="form-label">Zip</label>
+            <input type="text" id="zip" class="form-control me-6 ms-2" required>
+
+            </div>
+
+    </div>
+    <br>
+<input type="Checkbox" id="check" class="ms-2">
+    <label for="check">Check me out</label><br><br>
+    <button class="ms-2 btn btn-primary" >Sign In</button>
+
+
+</form>
+
+
+
+
+</body>
+</html>
